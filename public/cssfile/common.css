@@ -1,0 +1,48 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.h_font{
+    font-family: 'Merienda', cursive;
+}
+
+.h_line{
+width: 150px;
+margin: 0 auto;
+height: 1.8px;
+}
+
+.msg-alert{
+    position: fixed;
+    top: 75px;
+    left: 35px;
+}
+#dashboard-menu{
+    position: fixed;
+    height: 100%;
+    z-index: 11;
+}
+@media screen and (max-width: 992px) {
+    #dashboard-menu{
+        height: auto;
+        width: 100%;
+    }
+    #main-content{
+        margin-top: 60px;
+    }
+}
+
+#open{
+    margin-top:-30px;
+    margin-left:307px;
+    cursor:pointer
+}
+
+#closed{
+    margin-top:-30px;
+    margin-left:307px;
+    display:none;
+    cursor:pointer
+}
+

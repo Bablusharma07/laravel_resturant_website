@@ -1,0 +1,21 @@
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+}
+
+#open{
+    margin-top:-30px;
+    margin-left:307px;
+    cursor:pointer
+}
+
+#closed{
+    margin-top:-30px;
+    margin-left:307px;
+    display:none;
+    cursor:pointer
+}
+
